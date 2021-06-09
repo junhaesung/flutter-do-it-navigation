@@ -52,7 +52,9 @@ class SecondPage extends StatelessWidget {
       body: Container(
         child: Center(
           child: RaisedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
             child: Text('돌아가기'),
           ),
         ),
